@@ -1,0 +1,18 @@
+name: socket_client
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.8.1
+
+# Add regular dependencies here.
+dependencies:
+  http_client:
+    git: https://github.com/DesKaOne/http_client
+  crypto: ^3.0.6
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.24.0
